@@ -1,0 +1,92 @@
+#map-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+#map-page aside {
+    width: 440px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#map-page aside h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+#map-page aside p {
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+#map-page aside footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+#map-page aside footer strong {
+    font-weight: 800;
+}
+
+#map-page .leaflet-container {
+    z-index: 5;
+}
+
+#map-page .map-type {
+    position: absolute;
+    left: 420px;
+    bottom: 40px;
+    width: 100px;
+    height: 100px;
+    background: #15c3d6;
+    border: 3px solid #15c3d6;
+    border-radius: 10px;
+    z-index: 9;
+}
+
+#map-page .map-type:hover {
+    cursor: pointer;
+}
+
+#map-page .map-type img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#map-page .map-type span {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-left: 4px;
+    padding-top: 20px;
+    font-size: 15px;
+    background: linear-gradient(0deg, rgba(21, 195, 214, 1) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+#map-page .create-orphanage {
+    position: absolute;
+    z-index: 10;
+    right: 40px;
+    bottom: 40px;
+    width: 64px;
+    height: 64px;
+    background: #15c3d6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+#map-page .create-orphanage:hover {
+    background: #17d6eb;
+}
