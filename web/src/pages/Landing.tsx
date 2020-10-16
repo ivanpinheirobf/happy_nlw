@@ -3,8 +3,6 @@ import { FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import '../styles/pages/landing.css';
-import '../styles/global.css';
-
 import logoImg from '../images/logo.svg';
 
 function Landing() {
